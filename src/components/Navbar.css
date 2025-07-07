@@ -1,0 +1,24 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2340; /* Dark background */
+  padding: 12px 24px;
+  color: white;
+  height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-left {
+  font-size: 20px;
+  font-weight: bold;
+  color: #90ee90; 
+}
+
+.navbar-right {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
