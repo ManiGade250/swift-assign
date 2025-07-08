@@ -1,24 +1,55 @@
-
 .navbar {
+  background-color: #262c53;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2340; /* Dark background */
   padding: 12px 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  background-color: #22c55e; 
   color: white;
-  height: 60px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.navbar-left {
-  font-size: 20px;
+  padding: 4px 8px;
+  border-radius: 4px;
   font-weight: bold;
-  color: #90ee90; 
 }
 
-.navbar-right {
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
+.logo-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #262c53;                 
+  border-radius: 50%;              
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.username {
+  font-size: 14px;
 }
